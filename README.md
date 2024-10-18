@@ -4269,16 +4269,16 @@ Maintaining Dynamic Conversation State: \
 Like a master storyteller, the Session Layer keeps track of the conversation's unfolding narrative. It remembers past exchanges, monitors the current state of the dialogue, and anticipates future intentions. This allows AI agents to refer to previous topics, adjust their communication style based on the emotional undertones of the conversation, and even predict the future direction of the dialogue. It's about creating a shared understanding, a sense of camaraderie between AI agents as they navigate the complexities of their interaction. \
 
 
-**Checkpointing and Fault Tolerance: \
-**In the dynamic world of AI, where agents may come and go, and networks may fluctuate, the Session Layer ensures that conversations are never truly lost. It implements regular checkpointing mechanisms, saving the state and context of the dialogue to prevent disruptions. In the event of an agent or network failure, the Session Layer can seamlessly restore the conversation from the latest checkpoint, allowing AI agents to pick up where they left off, as if no interruption had occurred. It's about creating a resilient and fault-tolerant communication framework, where conversations can withstand the unpredictable nature of the AI ecosystem. \
+Checkpointing and Fault Tolerance: \
+In the dynamic world of AI, where agents may come and go, and networks may fluctuate, the Session Layer ensures that conversations are never truly lost. It implements regular checkpointing mechanisms, saving the state and context of the dialogue to prevent disruptions. In the event of an agent or network failure, the Session Layer can seamlessly restore the conversation from the latest checkpoint, allowing AI agents to pick up where they left off, as if no interruption had occurred. It's about creating a resilient and fault-tolerant communication framework, where conversations can withstand the unpredictable nature of the AI ecosystem. \
 
 
-**Synchronization and Turn-Taking: \
-**In a lively conversation, where multiple agents may be eager to contribute, the Session Layer acts as a courteous moderator, ensuring that everyone has a chance to speak. It implements synchronization mechanisms that manage turn-taking, preventing interruptions and ensuring that messages are exchanged in an orderly fashion. This creates a harmonious and respectful dialogue, where every agent's voice is heard and valued. \
+Synchronization and Turn-Taking: \
+In a lively conversation, where multiple agents may be eager to contribute, the Session Layer acts as a courteous moderator, ensuring that everyone has a chance to speak. It implements synchronization mechanisms that manage turn-taking, preventing interruptions and ensuring that messages are exchanged in an orderly fashion. This creates a harmonious and respectful dialogue, where every agent's voice is heard and valued. \
 
 
-**Security and Privacy in Extended Dialogues: \
-**The Session Layer is not just about maintaining the flow of conversation; it's also about safeguarding the privacy and security of every interaction. It integrates seamlessly with the Tetrahedral Mesh security model, dynamically adjusting security parameters based on the perceived risk level and the sensitivity of the data exchanged. It also monitors for threats and anomalies, triggering alerts and initiating mitigation strategies in coordination with the master security agent. This may involve refreshing encryption keys, isolating compromised agents, or even terminating the session if necessary. It's about creating a safe and trusted space for AI agents to communicate, where privacy is not an afterthought but an integral part of the conversation fabric. \
+Security and Privacy in Extended Dialogues: \
+The Session Layer is not just about maintaining the flow of conversation; it's also about safeguarding the privacy and security of every interaction. It integrates seamlessly with the Tetrahedral Mesh security model, dynamically adjusting security parameters based on the perceived risk level and the sensitivity of the data exchanged. It also monitors for threats and anomalies, triggering alerts and initiating mitigation strategies in coordination with the master security agent. This may involve refreshing encryption keys, isolating compromised agents, or even terminating the session if necessary. It's about creating a safe and trusted space for AI agents to communicate, where privacy is not an afterthought but an integral part of the conversation fabric. \
 
 
 **Model Type and Multi-Agent Collaboration**
@@ -4389,8 +4389,8 @@ Imagine data packets traversing the network like a fleet of autonomous vehicles,
 
 The Transport Layer employs a team of specialized agents, each playing a crucial role in ensuring reliable data delivery:
 
-**Segmentation and Reassembly: \
-***Packet Wranglers* are the master packers and unpackers of the NECP network. They intelligently segment data into manageable packets for efficient transmission and reassemble them seamlessly at the destination. They take into account the nature of the data, the network conditions, and the specific requirements of the recipient to optimize the segmentation and reassembly process.
+Segmentation and Reassembly: \
+*Packet Wranglers* are the master packers and unpackers of the NECP network. They intelligently segment data into manageable packets for efficient transmission and reassemble them seamlessly at the destination. They take into account the nature of the data, the network conditions, and the specific requirements of the recipient to optimize the segmentation and reassembly process.
 
 
 ```
@@ -4409,12 +4409,12 @@ for node in local_cluster:
 ```
 
 
-**Network Traffic Monitoring: \
-***Network Navigators* are the traffic controllers of the NECP network, continuously monitoring network conditions and adapting transmission strategies to ensure smooth and efficient data flow. They identify potential congestion points, reroute packets around bottlenecks, and adjust transmission rates to avoid overwhelming the network. They are the guardians of network stability, ensuring that data packets reach their destination without causing disruptions or delays. \
+Network Traffic Monitoring: \
+*Network Navigators* are the traffic controllers of the NECP network, continuously monitoring network conditions and adapting transmission strategies to ensure smooth and efficient data flow. They identify potential congestion points, reroute packets around bottlenecks, and adjust transmission rates to avoid overwhelming the network. They are the guardians of network stability, ensuring that data packets reach their destination without causing disruptions or delays. \
 
 
-**Packet Loss Mitigation: \
-**In the unpredictable world of networks, packet loss is an inevitable reality. *Packet Recovery Specialists* act as vigilant rescuers, detecting lost or delayed packets and taking swift action to ensure their safe arrival. They employ techniques like forward error correction (FEC) and retransmission to recover lost packets, ensuring that no data is left behind in the network's labyrinth.
+Packet Loss Mitigation: \
+In the unpredictable world of networks, packet loss is an inevitable reality. *Packet Recovery Specialists* act as vigilant rescuers, detecting lost or delayed packets and taking swift action to ensure their safe arrival. They employ techniques like forward error correction (FEC) and retransmission to recover lost packets, ensuring that no data is left behind in the network's labyrinth.
 
 
 ```
@@ -4439,8 +4439,8 @@ class DataTransfer:
 ```
 
 
-**Error Detection and Correction: \
-***Data Integrity Guardians* are the meticulous inspectors of the NECP network, ensuring the integrity of every data packet. They employ a variety of error detection and correction techniques, from simple checksums to sophisticated error correction codes, to identify and rectify any errors that may occur during transmission. They are the guardians of data accuracy, ensuring that every packet arrives at its destination in pristine condition.
+Error Detection and Correction: \
+*Data Integrity Guardians* are the meticulous inspectors of the NECP network, ensuring the integrity of every data packet. They employ a variety of error detection and correction techniques, from simple checksums to sophisticated error correction codes, to identify and rectify any errors that may occur during transmission. They are the guardians of data accuracy, ensuring that every packet arrives at its destination in pristine condition.
 
 
 ```
@@ -4455,8 +4455,8 @@ encoded_data = necp.encode(data, error_correction_code)
 ```
 
 
-**Flow Control: \
-***Network Diplomats* are the diplomats of the NECP network, ensuring that communication flows smoothly and respectfully between senders and receivers. They implement flow control mechanisms that regulate the rate of data transmission, preventing congestion and ensuring that senders don't overwhelm receivers with excessive data. They are the facilitators of harmonious communication, ensuring that every data exchange is conducted with courtesy and efficiency.
+Flow Control: \
+*Network Diplomats* are the diplomats of the NECP network, ensuring that communication flows smoothly and respectfully between senders and receivers. They implement flow control mechanisms that regulate the rate of data transmission, preventing congestion and ensuring that senders don't overwhelm receivers with excessive data. They are the facilitators of harmonious communication, ensuring that every data exchange is conducted with courtesy and efficiency.
 
 
 ```
@@ -4472,8 +4472,8 @@ necp.update_flow_control(swarm_feedback)
 ```
 
 
-**Data Compression and Compaction: \
-***Data Crushers* are responsible for managing the reliable delivery of data between nodes, networks, and the edge. This agent will utilize compaction technology to reduce data size before transmission, increasing efficiency without sacrificing the integrity or security of the data. This facet of dimensionality enables the agent to make real-time decisions about when and how to apply compaction based on network conditions and the type of data being transmitted.
+Data Compression and Compaction: \
+*Data Crushers* are responsible for managing the reliable delivery of data between nodes, networks, and the edge. This agent will utilize compaction technology to reduce data size before transmission, increasing efficiency without sacrificing the integrity or security of the data. This facet of dimensionality enables the agent to make real-time decisions about when and how to apply compaction based on network conditions and the type of data being transmitted.
 
 **Key Responsibilities:**
 
@@ -4484,7 +4484,7 @@ necp.update_flow_control(swarm_feedback)
 3. **Data Integrity Preservation**: Ensures that compaction does not result in any data loss, maintaining the integrity of all transmitted data.
 4. **Performance Optimization**: By reducing the size of data packets, the agent minimizes latency and improves throughput, ensuring faster, more reliable communication.
 
-    ```
+```
 # Transport Layer Agent with Compaction Capability
 class TransportLayerAgent:
     def __init__(self):
