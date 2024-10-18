@@ -1,1 +1,0 @@
-# Neural-Engine-Communication-Protocol
