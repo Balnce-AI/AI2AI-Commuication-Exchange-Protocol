@@ -4938,8 +4938,8 @@ Imagine when every AI agent carries a detailed record of its **origins**, identi
 
 The Integrity/Provenance Layer employs a team of specialized agents, each playing a crucial role in safeguarding trust within the NECP network:
 
-**VLAD (Verifiable Long-lived address) Management: \
-***VLAD Archivists* are the meticulous record keepers of the NECP network, maintaining a comprehensive and tamper-proof record of every AI agent's history. They create and manage VLADs, which are unique, persistent identifiers that encapsulate an agent's origins, past interactions, and data lineage. These VLADs act as an agent's "digital identity card," providing a verifiable and trustworthy source of information for building trust.
+VLAD (Verifiable Long-lived address) Management: \
+*VLAD Archivists* are the meticulous record keepers of the NECP network, maintaining a comprehensive and tamper-proof record of every AI agent's history. They create and manage VLADs, which are unique, persistent identifiers that encapsulate an agent's origins, past interactions, and data lineage. These VLADs act as an agent's "digital identity card," providing a verifiable and trustworthy source of information for building trust.
 
 **Assess and Verify Agent using VLADs:**
 
@@ -4992,8 +4992,8 @@ def assess_trustworthiness(self, agent_id, provenance_records):
 ```
 
 
-**Provenance Tracking: \
-***Provenance Detectives* are the meticulous investigators of the NECP network, tracing the origins and history of every piece of information. They track the movement of data packets, record the transformations they undergo, and maintain a detailed log of every interaction. This provenance information provides a transparent and auditable trail, ensuring accountability and enabling the detection of any data manipulation or inconsistencies.
+Provenance Tracking: \
+*Provenance Detectives* are the meticulous investigators of the NECP network, tracing the origins and history of every piece of information. They track the movement of data packets, record the transformations they undergo, and maintain a detailed log of every interaction. This provenance information provides a transparent and auditable trail, ensuring accountability and enabling the detection of any data manipulation or inconsistencies.
 
 The `FederatedLearningProvenance` class can be integrated into the `Provenance Detective Agent`. This agent can utilize the class to record model updates and verify model lineage as part of its provenance tracking responsibilities.
 
@@ -5018,8 +5018,8 @@ class ProvenanceDetectiveAgent:
 ```
 
 
-**Integrity Assessment: \
-***Trustworthiness Assessors* are the discerning judges of the NECP network, evaluating the integrity and trustworthiness of AI agents based on their VLADs and provenance records. They analyze past behavior, identify potential red flags, and provide an overall assessment of an agent's trustworthiness. This assessment helps other agents make informed decisions about whether to engage in interactions or collaborations, fostering a network of trust based on verifiable evidence.
+Integrity Assessment: \
+*Trustworthiness Assessors* are the discerning judges of the NECP network, evaluating the integrity and trustworthiness of AI agents based on their VLADs and provenance records. They analyze past behavior, identify potential red flags, and provide an overall assessment of an agent's trustworthiness. This assessment helps other agents make informed decisions about whether to engage in interactions or collaborations, fostering a network of trust based on verifiable evidence.
 
 **Integrity Score:**
 
@@ -5047,11 +5047,11 @@ def assess_integrity(self, agent_id, provenance_record, behavior_patterns,
 ```
 
 
-**Security and Privacy: \
-***Privacy Guardians* are the vigilant protectors of sensitive information within the Integrity/Provenance Layer. They ensure that VLADs and provenance records are handled with utmost confidentiality, employing encryption, access controls, and other privacy-preserving techniques to safeguard sensitive information. They also work in close coordination with the Security Sentinels from the Session Layer to maintain the integrity and confidentiality of VLADs and provenance records during transmission and storage.
+Security and Privacy: \
+*Privacy Guardians* are the vigilant protectors of sensitive information within the Integrity/Provenance Layer. They ensure that VLADs and provenance records are handled with utmost confidentiality, employing encryption, access controls, and other privacy-preserving techniques to safeguard sensitive information. They also work in close coordination with the Security Sentinels from the Session Layer to maintain the integrity and confidentiality of VLADs and provenance records during transmission and storage.
 
-**Human-in-the-Loop Verification: \
-**While AI agents can assess trustworthiness based on VLADs and provenance records, the Integrity/Provenance Layer also recognizes the importance of human judgment. *Human-AI Trust Arbitrators* act as bridges between humans and AI, enabling human users to review VLADs, provenance records, and trustworthiness assessments. They provide a mechanism for human intervention and oversight, allowing users to provide feedback, override AI assessments, or escalate concerns to higher authorities. This human-in-the-loop approach ensures that the NECP network remains aligned with human values and ethical considerations.
+Human-in-the-Loop Verification: \
+While AI agents can assess trustworthiness based on VLADs and provenance records, the Integrity/Provenance Layer also recognizes the importance of human judgment. *Human-AI Trust Arbitrators* act as bridges between humans and AI, enabling human users to review VLADs, provenance records, and trustworthiness assessments. They provide a mechanism for human intervention and oversight, allowing users to provide feedback, override AI assessments, or escalate concerns to higher authorities. This human-in-the-loop approach ensures that the NECP network remains aligned with human values and ethical considerations.
 
 The `necp.request_human_input()` function can be included in the `Human-AI Trust Arbitrator Agent`. This agent can utilize the function to request human input for trust decisions when the AI agent's confidence level is below a certain threshold.
 
@@ -5183,12 +5183,12 @@ Agents communicate like birds in a murmuration, each one responding instinctivel
 
 The Data-Link Layer employs a team of specialized agents, each playing a crucial role in orchestrating this local communication symphony:
 
-**Connection Establishment and Maintenance: \
-***Link Builders* are the skilled engineers of the NECP neighborhood, establishing and maintaining reliable connections between neighboring AI agents. They ensure that communication channels are open and secure, like constructing well-maintained roads that connect neighboring houses. They also monitor the quality of the connections, repairing any disruptions or resolving conflicts that may arise, like diligent road maintenance crews ensuring smooth traffic flow. These agents are adept at handling diverse connection types, from secure point-to-point links for confidential data exchange to broadcast channels for disseminating information to multiple recipients. \
+Connection Establishment and Maintenance: \
+*Link Builders* are the skilled engineers of the NECP neighborhood, establishing and maintaining reliable connections between neighboring AI agents. They ensure that communication channels are open and secure, like constructing well-maintained roads that connect neighboring houses. They also monitor the quality of the connections, repairing any disruptions or resolving conflicts that may arise, like diligent road maintenance crews ensuring smooth traffic flow. These agents are adept at handling diverse connection types, from secure point-to-point links for confidential data exchange to broadcast channels for disseminating information to multiple recipients. \
 
 
-**Framing and Addressing: \
-***Packet Encapsulators* are the meticulous packers of the NECP neighborhood, carefully encapsulating diverse data types into frames, adding necessary headers and trailers, like wrapping gifts in beautiful packaging. They ensure that each frame is properly addressed, like adding the correct address to a letter, ensuring that it reaches the intended recipient without getting lost in the network. These agents are adept at handling various data formats, from simple text messages to complex multimedia streams and database packages, encapsulating them into appropriate frame structures for efficient transmission.
+Framing and Addressing: \
+*Packet Encapsulators* are the meticulous packers of the NECP neighborhood, carefully encapsulating diverse data types into frames, adding necessary headers and trailers, like wrapping gifts in beautiful packaging. They ensure that each frame is properly addressed, like adding the correct address to a letter, ensuring that it reaches the intended recipient without getting lost in the network. These agents are adept at handling various data formats, from simple text messages to complex multimedia streams and database packages, encapsulating them into appropriate frame structures for efficient transmission.
 
 The `AIDataLinkLayer` class and the `calculate_optimal_frame_size` function demonstrate the adaptive frame size algorithm. This functionality can be incorporated into the `Packet Encapsulator Agent`, which is responsible for framing and addressing data packets.
 
@@ -5289,8 +5289,8 @@ data_link_layer.update_frame_size()  # Dynamically update frame size for optimal
 ```
 
 
-**Error Detection and Correction: \
-***Data Integrity Inspectors* are the vigilant guardians of data accuracy, meticulously inspecting each frame for errors that may have occurred during transmission. They employ a variety of error detection and correction techniques, like proofreading a document for typos, ensuring that data arrives at its destination in pristine condition. These agents are equipped with advanced error correction codes and algorithms to handle the challenges of transmitting diverse data types, ensuring the integrity of every message, file, or multimedia stream.
+Error Detection and Correction: \
+*Data Integrity Inspectors* are the vigilant guardians of data accuracy, meticulously inspecting each frame for errors that may have occurred during transmission. They employ a variety of error detection and correction techniques, like proofreading a document for typos, ensuring that data arrives at its destination in pristine condition. These agents are equipped with advanced error correction codes and algorithms to handle the challenges of transmitting diverse data types, ensuring the integrity of every message, file, or multimedia stream.
 
 The `HybridARQ` class demonstrates the hybrid ARQ with adaptive coding. This functionality can be integrated into the `Data Integrity Inspector Agent`, which is responsible for error detection and correction.
 
@@ -5355,8 +5355,8 @@ class HybridARQ:
 ```
 
 
-**Flow Control: \
-***Traffic Regulators* are the traffic controllers of the NECP neighborhood, ensuring that data flows smoothly and efficiently between agents. They implement flow control mechanisms that prevent congestion and ensure that senders don't overwhelm receivers with excessive data, like traffic lights regulating the flow of vehicles at an intersection. These agents are adept at handling varying data rates and network conditions, dynamically adjusting flow control parameters to optimize transmission efficiency and prevent data loss.
+Flow Control: \
+*Traffic Regulators* are the traffic controllers of the NECP neighborhood, ensuring that data flows smoothly and efficiently between agents. They implement flow control mechanisms that prevent congestion and ensure that senders don't overwhelm receivers with excessive data, like traffic lights regulating the flow of vehicles at an intersection. These agents are adept at handling varying data rates and network conditions, dynamically adjusting flow control parameters to optimize transmission efficiency and prevent data loss.
 
 The `AISlindingWindow` class demonstrates the AI-optimized sliding window protocol. This functionality can be integrated into the `Traffic Regulator Agent`, which is responsible for flow control and congestion management.
 
@@ -5420,8 +5420,8 @@ class AISlidingWindow:
 ```
 
 
-**Media Access Control: \
-**In a shared communication environment, where multiple agents may be vying for attention, *Media Access Arbitrators* act as fair mediators, ensuring that every agent gets a chance to transmit its data. They implement media access control protocols that prevent collisions and ensure fair access to the shared communication medium, like a teacher ensuring that every student gets a chance to speak in a classroom discussion. These agents are skilled at managing diverse communication channels and protocols, ensuring that every agent has an equal opportunity to participate in the local communication symphony.
+Media Access Control: \
+In a shared communication environment, where multiple agents may be vying for attention, *Media Access Arbitrators* act as fair mediators, ensuring that every agent gets a chance to transmit its data. They implement media access control protocols that prevent collisions and ensure fair access to the shared communication medium, like a teacher ensuring that every student gets a chance to speak in a classroom discussion. These agents are skilled at managing diverse communication channels and protocols, ensuring that every agent has an equal opportunity to participate in the local communication symphony.
 
 The `RLBasedCSMACA` class demonstrates the reinforcement learning-based CSMA/CA protocol. This functionality can be integrated into the `Media Access Arbitrator Agent`, which is responsible for managing media access in multi-agent environments.
 
@@ -5690,8 +5690,8 @@ Picture the Physical Layer as the neural pathways in a living organism, where ea
 
 The Physical Layer is not merely a passive conduit for data; it's an active participant in the NECP ecosystem, employing a diverse team of specialized agents to ensure reliable and efficient communication:
 
-**Signal Generation and Transmission: \
-***Signal Crafters* are the artisans of the physical realm, shaping raw data into precisely modulated signals ready for transmission. They are masters of various modulation techniques, encoding information into the subtle fluctuations of electromagnetic waves, light pulses, or even quantum states. They ensure that data is packaged for efficient and reliable transmission across diverse physical media, from copper wires and fiber optic cables to wireless channels and quantum networks.
+Signal Generation and Transmission: \
+*Signal Crafters* are the artisans of the physical realm, shaping raw data into precisely modulated signals ready for transmission. They are masters of various modulation techniques, encoding information into the subtle fluctuations of electromagnetic waves, light pulses, or even quantum states. They ensure that data is packaged for efficient and reliable transmission across diverse physical media, from copper wires and fiber optic cables to wireless channels and quantum networks.
 
 The `AIMCScheme` class demonstrates the AI-driven Adaptive Modulation and Coding (AMC) algorithm. This functionality fits perfectly within the `Signal Crafter Agent`, which is responsible for modulating signals for transmission.
 
@@ -5711,8 +5711,8 @@ class SignalCrafterAgent:
 ```
 
 
-**Channel Selection and Management: \
-***Channel Navigators* are the explorers of the physical landscape, charting the optimal paths for data transmission. They analyze channel characteristics, identify potential interference sources, and dynamically select the most efficient and reliable channels for communication. They are adept at navigating the complexities of diverse communication environments, from crowded wireless spectrums to the delicate intricacies of quantum channels.
+Channel Selection and Management: \
+*Channel Navigators* are the explorers of the physical landscape, charting the optimal paths for data transmission. They analyze channel characteristics, identify potential interference sources, and dynamically select the most efficient and reliable channels for communication. They are adept at navigating the complexities of diverse communication environments, from crowded wireless spectrums to the delicate intricacies of quantum channels.
 
 While the provided code snippet doesn't directly address Multi-RAT, AI-RAN, or Quantum Networks, we can enhance the `Channel Navigator Agent` to reflect these advancements. This agent can be responsible for selecting the appropriate Radio Access Technology (RAT) based on network availability and agent capabilities, including future considerations for AI-RAN and Quantum Networks.
 
@@ -5752,8 +5752,8 @@ class ChannelNavigatorAgent:
 ```
 
 
-**Signal Reception and Demodulation: \
-***Signal Interpreters* are the astute listeners of the NECP network, carefully receiving and decoding the subtle whispers of information carried by physical signals. They are experts in demodulation techniques, extracting the original data from the modulated waveforms, light pulses, or quantum states. They ensure that the information arrives at its destination intact, ready for interpretation by higher layers of the NECP architecture.
+Signal Reception and Demodulation: \
+*Signal Interpreters* are the astute listeners of the NECP network, carefully receiving and decoding the subtle whispers of information carried by physical signals. They are experts in demodulation techniques, extracting the original data from the modulated waveforms, light pulses, or quantum states. They ensure that the information arrives at its destination intact, ready for interpretation by higher layers of the NECP architecture.
 
 The `RLPowerController` class demonstrates the use of reinforcement learning for optimizing transmission power. This functionality can be integrated into the `Signal Crafter Agent`, allowing it to balance communication reliability with energy efficiency.
 
@@ -5773,8 +5773,8 @@ class SignalCrafterAgent:
 ```
 
 
-**Physical Media Management: \
-***Infrastructure Guardians* are the custodians of the physical infrastructure, ensuring the integrity and availability of communication channels. They monitor the health of physical media, detect and repair any faults or disruptions, and optimize channel performance for reliable data transmission. They are the silent guardians of the NECP's physical foundation, ensuring that the network remains robust and resilient in the face of environmental challenges.
+Physical Media Management: \
+*Infrastructure Guardians* are the custodians of the physical infrastructure, ensuring the integrity and availability of communication channels. They monitor the health of physical media, detect and repair any faults or disruptions, and optimize channel performance for reliable data transmission. They are the silent guardians of the NECP's physical foundation, ensuring that the network remains robust and resilient in the face of environmental challenges.
 
 The `QuantumAuthenticator` and `QuantumSecureAILink` classes demonstrate the use of Quantum Key Distribution (QKD) for authentication. This functionality can be incorporated into the `Infrastructure Guardian Agent`, which is responsible for ensuring the security and integrity of communication channels.
 
@@ -5795,8 +5795,8 @@ class InfrastructureGuardianAgent:
 ```
 
 
-**Synchronization and Timing: \
-***Timekeepers* are the masters of synchronicity, ensuring that AI agents communicate in perfect harmony. They establish precise timing mechanisms, coordinating the transmission and reception of signals to prevent collisions and ensure efficient data flow. They are the metronome of the NECP orchestra, keeping the rhythm of communication steady and precise. \
+Synchronization and Timing: \
+*Timekeepers* are the masters of synchronicity, ensuring that AI agents communicate in perfect harmony. They establish precise timing mechanisms, coordinating the transmission and reception of signals to prevent collisions and ensure efficient data flow. They are the metronome of the NECP orchestra, keeping the rhythm of communication steady and precise. \
 
 
 **Model Type and Multi-Agent Collaboration**
@@ -5934,8 +5934,8 @@ This transaction-savvy SLM is supported by a diverse swarm of specialized agents
 
 The Transaction Layer employs a diverse team of specialized agents, each playing a crucial role in facilitating this dynamic AI economy:
 
-**Transaction Validation: \
-***Transaction Validators* are the meticulous accountants of the NECP network, ensuring that every transaction is legitimate and accurate. They verify the authenticity of the transacting agents, check the validity of the transaction request, and ensure that all necessary conditions are met before authorizing the transaction. They are the guardians of transaction integrity, preventing fraud and maintaining the trustworthiness of the AI marketplace. They are well-versed in the nuances of various transaction types, from simple payments to complex smart contracts, ensuring that every exchange adheres to the NECP's strict security and fairness standards.
+Transaction Validation: \
+*Transaction Validators* are the meticulous accountants of the NECP network, ensuring that every transaction is legitimate and accurate. They verify the authenticity of the transacting agents, check the validity of the transaction request, and ensure that all necessary conditions are met before authorizing the transaction. They are the guardians of transaction integrity, preventing fraud and maintaining the trustworthiness of the AI marketplace. They are well-versed in the nuances of various transaction types, from simple payments to complex smart contracts, ensuring that every exchange adheres to the NECP's strict security and fairness standards.
 
 **Updated Code**
 
@@ -6002,8 +6002,8 @@ class SmartContractAgent:
 ```
 
 
-**Value Transfer and Settlement: \
-***Value Transfer Agents* are the secure couriers of the NECP network, facilitating the transfer of value between agents. They handle various forms of value, including data tokens, service credits, and other digital assets, ensuring that the transfer is secure, efficient, and auditable. They are the backbone of the AI economy, enabling the seamless flow of value between agents and fostering economic growth. They are also responsible for integrating with various payment gateways and financial systems, enabling the exchange of different currencies and payment methods, from traditional fiat to cryptocurrencies and beyond.
+Value Transfer and Settlement: \
+*Value Transfer Agents* are the secure couriers of the NECP network, facilitating the transfer of value between agents. They handle various forms of value, including data tokens, service credits, and other digital assets, ensuring that the transfer is secure, efficient, and auditable. They are the backbone of the AI economy, enabling the seamless flow of value between agents and fostering economic growth. They are also responsible for integrating with various payment gateways and financial systems, enabling the exchange of different currencies and payment methods, from traditional fiat to cryptocurrencies and beyond.
 
 **Updated Code**
 
