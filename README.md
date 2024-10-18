@@ -2,7 +2,7 @@
 The **Neural Engine Communication Protocol (NECP)** is a framework designed to revolutionize AI communication and network architecture. Inspired by natural phenomena like **starling murmurations** and **neural pathways** in the human brain, NECP establishes a foundation for adaptive, interconnected AI ecosystems.
 ## Protocol Paper
 For an in-depth look at NECP, its design, and its potential applications, explore the full protocol paper:
-- **[HTML Version](NECP.html)**
+- **[Markdown Version](NECP.md)**
 - **[PDF Version](NECP.pdf)**
 ## Overview
 NECP is designed to enhance information flow and decision-making processes across various AI systems and networks, scaling from **personal AI assistants** to **global AI infrastructures**. By fostering a new era of **human-AI symbiosis**, NECP enables seamless, intuitive communication between systems, creating an environment where **collective intelligence** thrives.
