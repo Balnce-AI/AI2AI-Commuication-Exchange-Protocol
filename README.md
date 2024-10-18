@@ -4261,7 +4261,7 @@ Imagine AI agents that not only understand the immediate message but also rememb
 
 The Session Layer orchestrates a symphony of conversational elements, each contributing to the richness and depth of AI-AI, and agent interactions:
 
-**Session Initialization and Parameter Negotiation: \
+**Session Initialization and Parameter Negotiation:
 **Before a single message is exchanged, the Session Layer sets the stage for a productive conversation. It establishes secure communication channels, verifies the identities of participating agents, and negotiates session parameters, such as encryption protocols, data formats, and preferred communication styles. This ensures that agents can converse seamlessly, regardless of their diverse origins or technical capabilities. \
 
 
