@@ -6242,8 +6242,8 @@ def create_passport(agent_id, user_id, permissions):
 
 
  \
-**Profile and Policy Encoding: \
-***Profile Architects* are the skilled craftsmen of the NECP network, meticulously crafting digital profiles that encapsulate the preferences and characteristics of human users. They encode these profiles into a machine-readable format, ensuring that AI agents can access and utilize this information to personalize interactions and tailor services to the user's specific needs. They also work in close collaboration with *Policy Enforcers* to encode user-defined policies into machine-readable rules, ensuring that AI agents adhere to these policies when interacting with external entities.
+Profile and Policy Encoding: \
+*Profile Architects* are the skilled craftsmen of the NECP network, meticulously crafting digital profiles that encapsulate the preferences and characteristics of human users. They encode these profiles into a machine-readable format, ensuring that AI agents can access and utilize this information to personalize interactions and tailor services to the user's specific needs. They also work in close collaboration with *Policy Enforcers* to encode user-defined policies into machine-readable rules, ensuring that AI agents adhere to these policies when interacting with external entities.
 
 The `PrivacyPreservingMetrics` class demonstrates the use of homomorphic encryption for secure metric sharing. This functionality can be incorporated into the `Profile Architect Agent` to ensure that sensitive metrics are shared privately.
 
@@ -6537,19 +6537,19 @@ The Identity Layer's capabilities are powered by a sophisticated SLM, potentiall
 This identity-aware SLM is supported by a diverse swarm of specialized agents, each contributing their unique expertise to managing the identity framework:
 
 VLAD Creation and Management: \
-*Identity Weavers* are the master artisans of the NECP network, weaving the intricate tapestry of digital identity using VLADs (Verifiable Long-lived Addresses). They create and manage these unique, persistent identifiers that encapsulate the essence of an agent's existence, including its origin, relationships, and interactions. These VLADs act as a digital fingerprint, providing a verifiable and trustworthy source of information for establishing identity and building trust. \
+*Identity Weavers* are the master artisans of the NECP network, weaving the intricate tapestry of digital identity using VLADs (Verifiable Long-lived Addresses). They create and manage these unique, persistent identifiers that encapsulate the essence of an agent's existence, including its origin, relationships, and interactions. These VLADs act as a digital fingerprint, providing a verifiable and trustworthy source of information for establishing identity and building trust. 
 
 
 Identity Binding and Association: \
-*Identity Binders* are the skilled connectors of the NECP network, establishing the intricate links between human users, their AI systems, and the agents that act as their digital representatives. They ensure that every agent is securely bound to its originating human user, creating a chain of accountability and trust that permeates the entire NECP ecosystem. \
+*Identity Binders* are the skilled connectors of the NECP network, establishing the intricate links between human users, their AI systems, and the agents that act as their digital representatives. They ensure that every agent is securely bound to its originating human user, creating a chain of accountability and trust that permeates the entire NECP ecosystem. 
 
 
 Identity Resolution and Verification: \
-*Identity Verifiers* are the meticulous inspectors of the NECP network, ensuring the authenticity and integrity of every identity claim. They verify the validity of VLADs, confirm the associations between agents and users, and prevent any attempts at impersonation or fraud. They are the guardians of trust, ensuring that every interaction within the NECP network is based on verifiable identities. \
+*Identity Verifiers* are the meticulous inspectors of the NECP network, ensuring the authenticity and integrity of every identity claim. They verify the validity of VLADs, confirm the associations between agents and users, and prevent any attempts at impersonation or fraud. They are the guardians of trust, ensuring that every interaction within the NECP network is based on verifiable identities. 
 
 
 Decentralized Identity Management: \
-*Identity Guardians* are the stewards of user identity, ensuring that identity data is managed securely and transparently. They utilize decentralized technologies, such as distributed hash tables (DHTs) and cryptographic techniques, to protect user data from unauthorized access and manipulation. They empower users with control over their own identity, enabling them to manage their digital presence and define how their identity is shared and utilized within the NECP network. \
+*Identity Guardians* are the stewards of user identity, ensuring that identity data is managed securely and transparently. They utilize decentralized technologies, such as distributed hash tables (DHTs) and cryptographic techniques, to protect user data from unauthorized access and manipulation. They empower users with control over their own identity, enabling them to manage their digital presence and define how their identity is shared and utilized within the NECP network. 
 
 
 Identity Evolution and Adaptation: \
@@ -6819,19 +6819,19 @@ The Spatial Layer's capabilities are powered by a sophisticated SLM, potentially
 This spatially-aware SLM is supported by a diverse swarm of specialized agents, each contributing their unique expertise to enabling AI agents in the spatial domain:
 
 Spatial Perception and Awareness: \
-*Spatial Awareness Agents* are the eyes and ears of the NECP network, perceiving and interpreting the spatial environment. They gather data from various sensors, such as cameras, lidar, and microphones, creating a dynamic 3D map of the surroundings. They also analyze this data to identify objects, track movements, and understand spatial relationships, enabling AI agents to perceive and interact with the physical world in a meaningful way. \
+*Spatial Awareness Agents* are the eyes and ears of the NECP network, perceiving and interpreting the spatial environment. They gather data from various sensors, such as cameras, lidar, and microphones, creating a dynamic 3D map of the surroundings. They also analyze this data to identify objects, track movements, and understand spatial relationships, enabling AI agents to perceive and interact with the physical world in a meaningful way. 
 
 
 Navigation and Pathfinding: \
-*Spatial Navigation Agents* are the seasoned explorers of the NECP network, guiding AI agents through complex spatial environments. They utilize the 3D maps created by the Spatial Awareness Agents to plan optimal paths, avoiding obstacles and efficiently reaching their destinations. They are adept at navigating both physical and virtual worlds, enabling AI agents to seamlessly traverse different realities and interact with objects and entities within those spaces. \
+*Spatial Navigation Agents* are the seasoned explorers of the NECP network, guiding AI agents through complex spatial environments. They utilize the 3D maps created by the Spatial Awareness Agents to plan optimal paths, avoiding obstacles and efficiently reaching their destinations. They are adept at navigating both physical and virtual worlds, enabling AI agents to seamlessly traverse different realities and interact with objects and entities within those spaces. 
 
 
 Spatial Interaction and Manipulation: \
-*Spatial Interaction Agents* are the skilled manipulators of the NECP network, enabling AI agents to interact with and manipulate objects in the spatial environment. They translate user intentions into precise actions, controlling robotic arms, drones, or virtual avatars to perform tasks in both physical and digital realms. They are the bridge between mind and matter, enabling AI agents to seamlessly interact with the world around them. \
+*Spatial Interaction Agents* are the skilled manipulators of the NECP network, enabling AI agents to interact with and manipulate objects in the spatial environment. They translate user intentions into precise actions, controlling robotic arms, drones, or virtual avatars to perform tasks in both physical and digital realms. They are the bridge between mind and matter, enabling AI agents to seamlessly interact with the world around them. 
 
 
 Spatial Data Management: \
-*Spatial Data Managers* are the librarians of the NECP network, organizing and managing the vast amounts of spatial data generated by AI agents. They store and retrieve 3D maps, object information, and spatial relationships, ensuring that this data is readily accessible for navigation, interaction, and analysis. They also ensure the integrity and consistency of spatial data, preventing errors and inconsistencies that could disrupt agent interactions. \
+*Spatial Data Managers* are the librarians of the NECP network, organizing and managing the vast amounts of spatial data generated by AI agents. They store and retrieve 3D maps, object information, and spatial relationships, ensuring that this data is readily accessible for navigation, interaction, and analysis. They also ensure the integrity and consistency of spatial data, preventing errors and inconsistencies that could disrupt agent interactions. 
 
 
 Mixed Reality Integration: \
