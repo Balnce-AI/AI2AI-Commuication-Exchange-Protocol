@@ -1934,7 +1934,7 @@ def adapt_visual_style(interface_layout, user_preferences, environmental_data):
 * Step 5: The interface is assembled by combining the layout, widgets, and style.
 * Step 6: The SLM acts as the conductor, monitoring interactions and optimizing the interface using swarm intelligence algorithms.
 
-    ```
+```
 def orchestrate_interface(user_context, user_intent, data, user_preferences, environmental_data):
     """
     Orchestrates the agents to generate the user interface.
